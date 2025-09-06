@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Kumar - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="https://i.imghippo.com/files/mcp3678uf.png" alt="avatar">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Amit Kumar">Amit Kumar</h1>
+                    <p class="title">AI Engineer</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:amit.work017@outlook.com" class="contact-link">amit.work017@outlook.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="2006-03-20">March 20, 2006</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Gautam Buddha Nagar, U.P, India</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://github.com/Amitk003" target="_blank" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.linkedin.com/in/amitkumar017" target="_blank" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Projects</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>I'm a 2nd-year B.Tech Computer Science student with a passion for AI, especially in the areas of agent development and automation. I've explored and tested 30+ AI tools, including LLMs and generative models, giving me hands-on experience with the latest in AI tech.</p>
+                    <p>I enjoy building smart systems that solve real problems—particularly AI agents. I'm confident with Python and well-versed in AI/ML libraries, and I'm always looking for opportunities to turn ideas into deployable products as part of a collaborative team.</p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">AI Agent Development</h4>
+                                <p class="service-item-text">Building intelligent automation systems and AI agents using Python and ML libraries.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Machine Learning</h4>
+                                <p class="service-item-text">Working with LLMs, generative models, and AI/ML frameworks for intelligent solutions.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/xjLdzYxZ/icon-app.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Open Source Contribution</h4>
+                                <p class="service-item-text">Active contributor to GSSoC25 and OSCI25, developing features and optimizing code.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/0NL8zHpx/icon-photo.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Automation & Tools</h4>
+                                <p class="service-item-text">Creating automation bots, VS Code extensions, and productivity tools using modern tech stack.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+            
+            <article class="resume" data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">B.Tech Computer Science with AI Specialization</h4>
+                            <span>2024 - Present</span>
+                            <p class="timeline-text">Currently pursuing Bachelor of Technology in Computer Science with specialization in Artificial Intelligence at Gautam Buddha University. Focusing on AI.</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Open-Source Contributor - GSSoC25</h4>
+                            <span>Jul 2025 - Present</span>
+                            <p class="timeline-text">Selected as a contributor in the nationwide open-source program. Designed and developed new features, optimized code performance, and improved project documentation. Collaborated with maintainers and other contributors, resolved issues, and submitted PRs that were successfully merged.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Open-Source Contributor - OSCI25</h4>
+                            <span>Aug 2025 - Present</span>
+                            <p class="timeline-text">Contributed to large scale open-source projects as a part of Open-Source Connect India. Contributed to many projects by adding new features and solved many bugs. Gained hands-on experience with Git, GitHub, and open-source workflows.</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Python</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">AI/ML Libraries</h5>
+                                <data value="85">85%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 85%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Git/GitHub</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Automation/APIs</h5>
+                                <data value="75">75%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="projects" data-page="projects">
+                <header>
+                    <h2 class="h2 article-title">Projects</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>AI</button></li>
+                        <li class="filter-item"><button data-filter-btn>Automation</button></li>
+                        <li class="filter-item"><button data-filter-btn>Extension</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>AI</button></li>
+                            <li class="select-item"><button data-select-item>Automation</button></li>
+                            <li class="select-item"><button data-select-item>Extension</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="automation">
+                            <a href="https://github.com/Amitk003/Job_finder_bot_n8n" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/ZBG2h3Fk/job-finder-bot.png" alt="job finder bot" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Job Finder Automation Bot</h3>
+                                <p class="project-category">Automation</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="ai">
+                            <a href="https://github.com/Amitk003/Mausam-mitra" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/dhJM12Mw/mausam-mitra.png" alt="mausam mitra" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Mausam-Mitra: AI Farming Assistant</h3>
+                                <p class="project-category">AI Application</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="extension">
+                            <a href="https://marketplace.visualstudio.com/items?itemName=amitk003.vibe-guard" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/NyPZpZKj/vibeguard.png" alt="vibeguard" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">VibeGuard Security Assistant</h3>
+                                <p class="project-category">VS Code Extension</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="ai">
+                            <a href="https://github.com/Amitk003/NeonBot-Agent" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/dD7JPjFf/neonbot.png" alt="neonbot" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">NeonBot Agent</h3>
+                                <p class="project-category">AI Agent</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="https://formspree.io/f/xblaqdnk" method="POST" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
